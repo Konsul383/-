@@ -1,0 +1,198 @@
+		html{
+		 overflow-y:  hidden; 
+		}
+
+
+
+		body{
+			background-color: rgb(173, 216, 230);
+		}
+
+
+
+		.box{
+    		width: 600px;
+    		height:800px;
+    		background-color: rgb(250, 235, 215);
+    		position: relative;
+    		left: 35%;
+    		top: 0px;
+    		border-radius: 0px 15px 15px 15px;
+			border: 3px pink solid;
+    		/*border-radius: 0 10px 10px 10px;
+    		box-shadow: 5px 5px pink; */
+    	}
+
+
+
+
+    	.boxlegend{
+    		width: 160px;
+    		height:195px;
+    		background-color: rgb(250, 235, 215);
+    		position: relative;
+    		top:-2014px;
+    		left: 503px;
+    		 border-radius: 15px 0px 0px 15px;
+			border: 3px pink solid;
+/*    		border-radius: 10px 0px 0px 10px;
+    		box-shadow: 2px 2px 2px 2px pink;*/
+    	}
+
+
+
+
+    	.spiski li{
+    		margin-bottom: 15px;
+    		list-style-type: none;
+    		font-family: comic sans ms;
+    		font-weight: bold;
+    		text-align: center;
+    		position: relative;
+    		right: 25px;
+    		top: -10px;
+    	}
+
+    	.spiski a{
+    		text-decoration:none;
+    		color:black;
+    	}
+    	.spiski a:link {
+    		color: black; /* Цвет ссылок */
+    		padding-left:15px;
+    		padding-right:15px; /* Поля вокруг текста */ 
+    		padding-top:5px;
+    		padding-bottom:5px ;
+    		border-radius: 5px;
+      }
+   	.spiski a:hover {
+    		background: white; /* Цвет фона под ссылкой */ 
+    		color: black; /* Цвет ссылки */ 
+    		border: 2px pink solid;
+}
+
+	.knopka{
+		width: 60px;
+		background-color: pink;
+		padding: 7px;
+		border-radius: 10px;
+		color:rgb(250, 235, 215);
+		text-decoration: none;
+		font-weight: bold;
+		font-family: helvetica;
+		position: relative;
+		left:28%;
+		top: 7px;
+}
+	.knopka:hover{
+		background-color:rgb(250, 235, 215);	
+		color:pink;
+		border:3px pink solid;
+}
+
+
+
+
+
+    	.Info{
+    	font-family: comic sans ms;
+    	position: relative;
+    	left: 18px;
+    	color: rgb(250, 235, 215);
+    	text-shadow: 2px 2px 4px pink;
+    	}
+
+
+    	.owl{
+    		position: relative;
+    		top: 25px;
+    		border: 10px pink solid;
+    		border-radius: 50%;
+    	}
+
+
+
+    	.table{
+    		position: relative;
+    		top: 33px;
+    		font-size: 25px;
+    		border-collapse: separate;
+    		border-spacing: 10px;
+    		background: rgb(250, 235, 215);
+    		border-radius: 20px;
+/*    		border: 2px pink solid;*/
+    	} 
+
+
+
+    	th {
+	font-size: 22px;
+	font-weight: 300;
+	padding: 12px 10px;
+	border-bottom: 2px ;
+	color: black;
+	font-weight:bold;
+	font-family: helvetica;
+}
+
+
+
+td {
+padding: 10px;
+color: black;
+}
+
+
+
+h2{
+	font-family: comic sans ms;
+	color: pink;
+	position: relative;
+	top: 30px;
+	text-shadow: 4px black;
+}
+
+
+
+.twostolb li {
+/*	display:block;*/
+	width:49%;
+	float:left;
+}
+
+
+
+ul{
+	position: relative;
+	left:6%;
+	top: 5%;
+	font-size: 20px;
+	font-family: arial;
+}
+
+
+
+
+.b1{
+	position: relative;
+	left:100px;
+	top: -500px ; 
+}
+
+
+
+.b2{
+	position: relative;
+	left:1225px;
+	top:-1100px;
+}
+
+
+
+.menu{
+	font-size: 20px;
+	position: relative;
+	top: 10px;
+	font-family: comic sans ms;
+	font-weight: bold;
+}

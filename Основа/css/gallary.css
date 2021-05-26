@@ -1,0 +1,224 @@
+        html{
+         overflow-y:  hidden; 
+        }
+	       .box{
+    		background-color: rgb(250, 235, 215);
+    		position: relative;
+    		left: 23%;
+    		top: 80px;
+    		border-radius:0px 15px 15px 15px;
+    		border: 3px pink solid;
+    		width: 1250px;
+    		height:800px;
+	}
+	       .boxlegend{
+    		width: 160px;
+    		height:195px;
+    		background-color: rgb(250, 235, 215);
+    		position: relative;
+    		top: -726px;
+    		left: 275px;
+    		border-radius: 15px 0px 0px 15px;
+			border: 3px pink solid;
+		}
+		    	.spiski li{
+    		margin-bottom: 15px;
+    		list-style-type: none;
+    		font-family: comic sans ms;
+    		font-weight: bold;
+            font-size: 20px;
+    		text-align: center;
+    		position: relative;
+    		right: 16px;
+            top: 0px;
+    	}
+
+    	.spiski a{
+    		text-decoration:none;
+    		color:black;
+    	}
+    	.spiski a:link {
+    		color: black; /* Цвет ссылок */
+    		padding-left:15px;
+    		padding-right:15px; /* Поля вокруг текста */ 
+    		padding-top:5px;
+    		padding-bottom:5px ;
+    		border-radius: 5px;
+      }
+   	.spiski a:hover {
+    		background: white; /* Цвет фона под ссылкой */ 
+    		color: black; /* Цвет ссылки */ 
+    		border: 2px pink solid;
+}
+	.knopka{
+		width: 60px;
+		background-color: pink;
+		padding: 7px;
+		border-radius: 10px;
+		color:rgb(250, 235, 215);
+		text-decoration: none;
+		font-weight: bold;
+		font-family: helvetica;
+		position: relative;
+		left:28%;
+		top: 16px;
+}
+	.knopka:hover{
+		background-color:rgb(250, 235, 215);	
+		color:pink;
+		border:3px pink solid;
+}
+
+
+.lokphoto{
+    width: 280px;
+    height: 280px;
+    border: pink;
+    border-radius: 30px;
+}
+.lokvideo{
+    border-radius: 30px;
+}
+.loken{
+    position: relative;
+    top: 15%;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+
+    .photo{
+        float: left;
+        display: block;
+        background-color: rgb(250, 235, 215);
+        width: 280px;
+        height: 280px;
+        border: 1px solid pink;
+        margin: 25px;
+        position: relative;
+        left: 30px;
+        border-radius: 30px;
+        top: 50px;
+    }
+    .descripshion{
+        float: left;
+        display: block;
+        background-color: rgb(250, 235, 215);
+        width: 280px;
+        height: 280px;
+        border: 1px solid pink;
+        margin: 25px;
+        position: relative;
+        left: 30px;
+        border-radius: 30px;
+        top: 50px;
+}
+    .video{
+        float: left;
+        display: block;
+        background-color: rgb(250, 235, 215);
+        width: 480px;
+        height: 280px;
+        border: 1px solid pink;
+        margin: 25px;
+        position: relative;
+        left: 30px;
+        border-radius: 30px;
+        top: 50px;
+}
+
+.lok{
+    position: relative;
+    top: 10%;
+    font-weight: bold;
+    font-family: helvetica;
+
+}
+
+
+
+
+    .photo1{
+        float: left;
+        display: block;
+        background-color:rgb(250, 235, 215) ;
+        width: 280px;
+        height: 280px;
+        border: 1px solid pink;
+        margin: 25px;
+        position: relative;
+        left: 30px;
+        border-radius: 30px;
+        top: 84px;
+}
+    .descripshion1{
+        float: left;
+        display: block;
+        background-color: rgb(250, 235, 215);
+        width: 280px;
+        height: 280px;
+        border: 1px solid pink;
+        margin: 25px;
+        position: relative;
+        left: 30px;
+        border-radius: 30px;
+        top:84px;
+}
+    .video1{
+        float: left;
+        display: block;
+        background-color: rgb(250, 235, 215);
+        width: 480px;
+        height: 280px;
+        border: 1px solid pink;
+        margin: 25px;
+        position: relative;
+        left: 30px;
+        border-radius: 30px;
+        top: 84px;
+}
+
+.footer{
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 36%;
+  /*  margin-left:0px;*/
+}
+.footer a{
+    text-decoration: none;
+    margin:15px;
+    position: relative;
+    bottom: 25px;
+        width: 60px;
+        background-color: pink;
+        padding: 7px;
+        border-radius: 10px;
+        color:rgb(250, 235, 215);
+        font-weight: bold;
+        font-family: helvetica;
+}
+.footer a:hover{
+    text-decoration: none;
+    margin:15px;
+    position: relative;
+        color:rgb(250, 235, 215);
+        font-weight: bold;
+        font-family: helvetica;
+        background-color:rgb(250, 235, 215);    
+        color:pink;
+        border:1px pink solid;
+}
+
+
+.page{
+    margin: 0px;
+    position: relative;
+    bottom: 25px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.disabled {
+  pointer-events: none;
+}
